@@ -15,7 +15,7 @@ import random
 X_MIN,X_MAX = 0,30
 Y_MIN,Y_MAX = 0,30
 LIMIT = 100
-MAT = ['ndc']
+MAT = ['ndc','m3','m4']
 
 # set random seed
 random.seed(100)

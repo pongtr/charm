@@ -37,7 +37,7 @@ def gen_and_test(test_num,dim,n_nodes,n_nets,mode):
                           seed = 100)
 
     inputs = {
-        'layers': 10,
+        'layers': 12,
         'rects': nodes,
         'order': 'pair_rule3',
         'route_modes': 'pl',
@@ -50,7 +50,7 @@ def gen_and_test(test_num,dim,n_nodes,n_nets,mode):
 
     
 # file_num = int(sys.argv[1])
-file_num = time.time()
+file_num = ''
 dimension = int(sys.argv[1])
 n_nodes = int(sys.argv[2])
 n_nets = int(sys.argv[3])

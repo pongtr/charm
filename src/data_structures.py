@@ -91,7 +91,6 @@ class Cell:
                 rect.bk = pk
                 self.geometry_material[rect.m].append(rect)
 
-
     def add_net(self,net,x,y,mat):
         # first check direct material            
         # if not found, then check connected material
@@ -109,6 +108,14 @@ class Cell:
             for rect in rects:
                 rect.offset(dx,dy)
 
+    def get_enclosing_rect(self):
+        try:
+            return self.enclosing_rect
+        except AttributeError:
+            self.enclosing_rect = Rect(self.x,self.y,
+                                       self.w,self.h,None,points=False)
+            return self.enclosing_rect
+                
     def emit_tcl(self,fp,dump=False,cell_dir='cells/'):
         """Emit tcl command to place cell at x,y
         if dump True, then dump, else getcell
@@ -128,7 +135,17 @@ class Cell:
                 if rect.l is not None:
                     rect.emit_tcl(fp)
 
-        pass
+    def get_points(self):
+        try:
+            return self.points
+        except AttributeError:
+            self.points = defaultdict(set)
+            for mat,rects in self.geometry_material.items():
+                layer = dr.layers_mat[mat]
+                for rect in rects:
+                    self.points[layer] = self.points[layer].union(rect.points)
+            return self.points
+
 
 ##########
 # Rect
@@ -139,15 +156,19 @@ class Point:
 
 class Rect:
     f = None
-    def __init__(self,x,y,w,h,m,l=None,bk=None):
+
+    def __init__(self,x,y,w,h,m,l=None,bk=None,points=True):
         self.x, self.y = x, y
         self.w, self.h = w, h
         self.get_x1_y1()
         self.m = m
         self.l = l
         self.bk = bk # block key
-        self.get_mat_points()
-        self.points = self.get_points()
+
+        # only get points if needed
+        if points:
+            self.get_mat_points()
+            self.points = self.get_points()
 
     def get_x1_y1(self):
         """Calculate the max x and y
@@ -237,7 +258,6 @@ class Rect:
         """
         return Rect(self.x,self.y,self.w,self.h,self.m,self.l)
 
-
     def get_points(self,material=False):
         """Returns the set of points of the rectangle
         """
@@ -322,7 +342,17 @@ class Component:
         """
         self.blocks.append(bk)
     
-    def get_points(self,rect,mat=None):
+    def get_centroid(self):
+        """Return the centroid of a component
+        """
+        x,y = 0,0
+        n = len(self.line)        
+        for p in self.line:
+            x += p[0]
+            y += p[1]
+        return (x / n, y / n)
+
+    def get_mat_points(rect,mat=None):
         """Given a rectangle, return the bottom left points from
         which the rectangle is formed
         """
@@ -334,17 +364,7 @@ class Component:
             for y in range(rect.y,rect.y + rect.h - width + 1):
                 line.add((x,y,mat))
         return line
-
-    def get_centroid(self):
-        """Return the centroid of a component
-        """
-        x,y = 0,0
-        n = len(self.line)        
-        for p in self.line:
-            x += p[0]
-            y += p[1]
-        return (x / n, y / n)
-
+    
     def add_node(self,node,layout=None):
         """Add node (given as rect) to component
         """
@@ -352,7 +372,7 @@ class Component:
 
         if node.m in dr.contact_materials:
             for mat in dr.contact_materials[node.m]:
-                self.line = self.line.union(self.get_points(node,mat=mat))
+                self.line = self.line.union(Component.get_mat_points(node,mat))
                 point = (node.x,node.y,mat)
                 self.junctions[point].append([point,node])
         else:
@@ -370,7 +390,8 @@ class Component:
 
         # origin is the only node in the component
         if len(self.nodes) > 1:
-            raise ValueError("Cannot have multiple nodes in component")
+            print("multiple nodes. picking one")
+            # raise ValueError("Cannot have multiple nodes in component")
         origin = self.nodes[0]
 
         # return if elevation is not needed
@@ -386,7 +407,7 @@ class Component:
         platform_cpn.add_node(platform)
 
         # route between origin and platform
-        route = lee_router.route_components(self,platform_cpn,layout,
+        route = lee_router.lee_route_components(self,platform_cpn,layout,
                                             layout.drc_cache,vertical=True)
         if route:
             self.add_route(route)
@@ -604,7 +625,23 @@ class Component:
             make_segment_rect(segment[0],segment[1],self.label).emit_tcl(fp)
         for k,f in self.fillers.items():
             f.emit_tcl(fp)
-    
+
+    def get_points(self):
+        """Calculates and returns points in component
+        """
+        try:
+            return self.points
+        except AttributeError:
+            points = set()
+            for segment in self.segments:
+                seg_rect = make_segment_rect(segment[0],segment[1],self.label)
+                points = points.union(seg_rect.get_points(material=True))
+            for k,f in self.fillers.items():
+                points = points.union(f.get_points(material=True))
+            self.points = points
+            return points
+            
+                
     def join(cp1,cp2,route):
         """Given two components, and route connecting the two,
         return a new component joining all three
@@ -664,7 +701,17 @@ class Component:
                     filler = Rect(x,y,w,h,mat,self.label)
                     self.fillers[(seg,n)] = filler
     
-
+    def line_materials(self):
+        """Returns a list of material in self.line sorted from low to high layer
+        """
+        layers = []
+        for p in self.line:
+            mat = p[2]
+            layer = dr.layers_mat[mat]
+            if layer not in layers:
+                layers.append(layer)
+        return sorted(layers)
+                    
 class Route:
     """Has waypoints, cost, and rectangles
     """
@@ -765,10 +812,20 @@ class Route:
 #####
 # SEGMENT
 
+SEG_CACHE = {}
+
+@aux.Timer.timeit
 def make_segment_rect(A,B,label,contoured=False,force_eol=True):
     """Returns rectangle representation of segment.
     If contoured True, then add spacing contour with end of line spacing
     """
+    '''
+    global SEG_CACHE
+    if (A,B) in SEG_CACHE:
+        val = SEG_CACHE[(A,B)]
+        return Rect(val[0],val[1],val[2],val[3],val[4],label,points=False)
+    '''
+    
     # make search area
     x,y = min(A[0],B[0]),min(A[1],B[1])
     mat = A[2]
@@ -786,7 +843,7 @@ def make_segment_rect(A,B,label,contoured=False,force_eol=True):
 
     # not contoured, return just rectangle
     if not contoured:
-        return Rect(x,y,w,h,mat,label)
+        return Rect(x,y,w,h,mat,label,points=False)
         
     # calculate contour (with end of line)
     spacing = dr.material_spacing[mat]
@@ -798,4 +855,6 @@ def make_segment_rect(A,B,label,contoured=False,force_eol=True):
     y -= contour_y
     h += 2 * contour_y
 
-    return  Rect(x,y,w,h,mat,label)
+    SEG_CACHE[(A,B)] = (x,y,w,h,mat)
+
+    return  Rect(x,y,w,h,mat,label,points=False)

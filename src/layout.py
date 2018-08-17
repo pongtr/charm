@@ -21,6 +21,8 @@ class Layout:
         self.grid = [defaultdict(list) for _ in range(inputs['layers'])]
         self.grid_points = {}
         self.block_grid = defaultdict(list) # pointer to block for each point
+        self.comp_grid = [defaultdict(list) for _ in range(inputs['layers'])]
+        self.comp_points = defaultdict(set)                          
         self.components = defaultdict(list)
         self.labels = set()
         self.rects = []
@@ -68,7 +70,8 @@ class Layout:
             # make and add component
             c = ds.Component(rect.l)
             c.add_node(rect)
-            self.components[rect.l].append(c)
+            self.add_component(c)
+            # self.components[rect.l].append(c)
 
             # add to set of labels
             self.labels.add(rect.l)
@@ -205,8 +208,6 @@ class Layout:
                     self.add_rect(rect)
             self.add_block(b)
 
-        
-        
     def add_block(self,block):
         """Add block to layout
         """
@@ -219,3 +220,26 @@ class Layout:
             for y in range(block.y, block.y + block.h):
                 self.block_grid[(x,y)].append(block)
     
+    def add_component(self,component):
+        """Adds component to layout and comp_grid
+        """
+        self.components[component.label].append(component)
+        c_points = component.get_points()
+        for cp in c_points:
+            key = cp[:2]
+            layer = dr.layers_mat[cp[2]]
+            self.comp_grid[layer][key].append(component)
+            self.comp_points[layer].add(key)
+
+    def remove_component(self,component):
+        """Removes component from layout and comp_grid
+        """
+        self.components[component.label].remove(component)
+        c_points = component.get_points()
+        for cp in c_points:
+            key = cp[:2]
+            layer = dr.layers_mat[cp[2]]
+            self.comp_grid[layer][key].remove(component)
+            if len(self.comp_grid[layer][key]) == 0:
+                self.comp_points[layer].remove(key)
+

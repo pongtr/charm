@@ -5,6 +5,7 @@
 import data_structures as ds
 import auxiliary as aux
 import design_rules as dr
+from pprint import pprint
 
 class Cache:
     """DRC Cache for memoization of design rule checks 
@@ -31,35 +32,53 @@ def check_segment(A,B,label,layout,drc_cache,point=False,components=[]):
 
     @aux.Timer.timeit
     def get_search_points(search_area,grid_points):
-        return search_area.points.intersection(grid_points)
+        # POSSIBLE TO CACHE THIS!
+        return [gp for gp in grid_points if search_area.is_in(gp)]
 
-    @aux.Timer.timeit
-    def with_layout():
-        """Search through existing layout
+    def get_layers():
+        """Return layers the segment should check
         """
         if mat in dr.contact_materials:
-            contact = True
             layers = []
             if layer > 2: layers.append(layer - 2)
             layers.append(layer)
             if layer < len(dr.mat_layers) - 3: layers.append(layer + 2)
         else:
-            contact = False
             layers = [layer]
-
-        for l in layers:
+        return layers
+    
+    @aux.Timer.timeit
+    def with_layout():
+        """Search through existing layout
+        """
+        contact = mat in dr.contact_materials
+        for l in get_layers():
             # ignore invalid layers
             if l >= len(layout.grid) or l < 0: continue
             # mask grid with search area
-            grid_points = layout.grid_points[l]
+
+            # for placed mode, points are from blocks
+            if layout.mode == 'placed':
+                blocks = []
+                for block in layout.blocks:
+                    if block.get_enclosing_rect().overlaps(search_area):
+                        blocks.append(block)
+
+                # grid_points = set()
+                grid_points = []
+                for b in blocks:
+                    pprint(b.get_points())
+                    grid_points += b.get_points()[l]
+                    # grid_points = grid_points.union(b.get_points()[l])
+            else:
+                grid_points = layout.grid_points[l]
             search_points = get_search_points(search_area,grid_points)
             searched_rects = set()
             for sp in search_points:
                 existing_rects = layout.grid[l][sp]
                 for rect in existing_rects:
                     # already ok
-                    if rect in searched_rects:
-                        continue
+                    if rect in searched_rects: continue
 
                     # different net conflict
                     if contact or rect.l != label:
@@ -78,6 +97,88 @@ def check_segment(A,B,label,layout,drc_cache,point=False,components=[]):
                     searched_rects.add(rect)
 
         return True
+
+    @aux.Timer.timeit
+    def with_routes():
+        """Search through existing routes
+        """
+        conflicts = []
+        for l in get_layers():
+            # ignore invalid layers
+            if l >= len(layout.grid) or l < 0: continue
+            # mask grid with search area
+            comp_points = layout.comp_points[l]
+            search_points = get_search_points(search_area,comp_points)
+            searched_components = set()
+            for sp in search_points:
+                comps = layout.comp_grid[l][sp]
+                for comp in comps:
+                    if comp in searched_components: continue
+                    net = comp.label
+                    for seg,rect in comp.seg_rects.items():
+                        comp_key = (comp,seg) # component key
+                        seg_layer = dr.layers_mat[rect.m]
+                        if comp_key not in drc_cache.route[key]:
+                            # different net and overlaps
+                            if (net != label and
+                                seg_layer == layer and
+                                rect.overlaps(search_area)):
+                                drc_cache.route[key][comp_key] = True
+                            # contact overlapping another contact
+                            elif (mat in dr.contact_materials and
+                                rect.m in dr.contact_materials and
+                                abs(layer - seg_layer) < 3 and
+                                rect.overlaps(contact_search)):
+                                drc_cache.route[key][comp_key] = True
+                            # same net and parallel without enough spacing
+                            elif (not point and net == label and
+                                  not check_parallel_spacing((A,B),seg)):
+                                drc_cache.route[key][comp_key] = True
+                            else:
+                                drc_cache.route[key][comp_key] = False
+                        if drc_cache.route[key][comp_key]:
+                            conflict = ComponentConflict((A,B),label,comp,seg)
+                            conflicts.append(conflict)
+                    searched_components.add(comp)
+        return conflicts
+                    
+            
+        
+
+    @aux.Timer.timeit
+    def with_routes_old():
+        """Search through existing routes
+        """
+        conflicts = []
+        for net in layout.labels:
+            # search through components
+            for comp in layout.components[net]:
+                for seg,rect in comp.seg_rects.items():
+                    comp_key = (comp,seg) # component key
+                    seg_layer = dr.layers_mat[rect.m]
+                    if comp_key not in drc_cache.route[key]:
+                        # different net and overlaps
+                        if (net != label and
+                            seg_layer == layer and
+                            rect.overlaps(search_area)):
+                            drc_cache.route[key][comp_key] = True
+                        # contact overlapping another contact
+                        elif (mat in dr.contact_materials and
+                            rect.m in dr.contact_materials and
+                            abs(layer - seg_layer) < 3 and
+                            rect.overlaps(contact_search)):
+                            drc_cache.route[key][comp_key] = True
+                        # same net and parallel without enough spacing
+                        elif (not point and net == label and
+                              not check_parallel_spacing((A,B),seg)):
+                            drc_cache.route[key][comp_key] = True
+                        else:
+                            drc_cache.route[key][comp_key] = False
+                    if drc_cache.route[key][comp_key]:
+                        conflict = ComponentConflict((A,B),label,comp,seg)
+                        conflicts.append(conflict)
+        return conflicts
+
 
     def check_parallel_spacing(seg1,seg2):
         """Given two segments, return False if parallel and closer than 
@@ -108,6 +209,12 @@ def check_segment(A,B,label,layout,drc_cache,point=False,components=[]):
             return False
 
         return True
+
+    @aux.Timer.timeit
+    def get_seg_rect(A,B,label):
+        search_area = ds.make_segment_rect(A,B,label,contoured=True)
+        contact_search = ds.make_segment_rect(A,B,label,contoured=False)
+        return search_area, contact_search
         
 
     # key for caching
@@ -117,8 +224,7 @@ def check_segment(A,B,label,layout,drc_cache,point=False,components=[]):
     mat = A[2]
     
     # get search area
-    search_area = ds.make_segment_rect(A,B,label,contoured=True)
-    contact_search = ds.make_segment_rect(A,B,label,contoured=False)
+    search_area, contact_search = get_seg_rect(A,B,label)
     layer = dr.layers_mat[mat]
 
     # search through existing layout
@@ -128,36 +234,9 @@ def check_segment(A,B,label,layout,drc_cache,point=False,components=[]):
         return False
                 
     # search through existing routes
-    conflicts = []
     if key not in drc_cache.route:
-        drc_cache.route[key] = {} # initialize entry for segment
-    for net in layout.labels:
-        # search through components
-        for comp in layout.components[net]:
-            for seg,rect in comp.seg_rects.items():
-                comp_key = (comp,seg) # component key
-                seg_layer = dr.layers_mat[rect.m]
-                if comp_key not in drc_cache.route[key]:
-                    # different net and overlaps
-                    if (net != label and
-                        seg_layer == layer and
-                        rect.overlaps(search_area)):
-                        drc_cache.route[key][comp_key] = True
-                    # contact overlapping another contact
-                    elif (mat in dr.contact_materials and
-                        rect.m in dr.contact_materials and
-                        abs(layer - seg_layer) < 3 and
-                        rect.overlaps(contact_search)):
-                        drc_cache.route[key][comp_key] = True
-                    # same net and parallel without enough spacing
-                    elif (not point and net == label and
-                          not check_parallel_spacing((A,B),seg)):
-                        drc_cache.route[key][comp_key] = True
-                    else:
-                        drc_cache.route[key][comp_key] = False
-                if drc_cache.route[key][comp_key]:
-                    conflict = ComponentConflict((A,B),label,comp,seg)
-                    conflicts.append(conflict)
+        drc_cache.route[key] = {} # initialize entry for segment        
+    conflicts = with_routes_old()
 
     if len(conflicts) > 0:
         return conflicts

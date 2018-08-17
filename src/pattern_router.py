@@ -12,9 +12,22 @@ import pprint as pprint
 TERMINATE = 50000
 LAZY_THRESHOLD = 100
 
-def route_components(cp1,cp2,layout,drc_cache):
+@aux.Timer.timeit
+def pattern_route_components(cp1,cp2,layout,drc_cache,elevate=True):
     """Generate lowest cost legal route  between two components
     """
+    if elevate:
+        # get the highest layer from each
+        hl1,hl2 = cp1.line_materials()[-1], cp2.line_materials()[-1]
+        # elevate a component if needed
+        if hl1 < hl2:
+            print("  Elevating")
+            cp1.elevate(dr.mat_layers[hl2],layout)
+        if hl2 < hl1:
+            print("  Elevating")
+            cp2.elevate(dr.mat_layers[hl1],layout)
+
+    
     for i,route in enumerate(generate_routes(cp1,cp2)):
         print_status(i,route.cost)
         if i > TERMINATE: break

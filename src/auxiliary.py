@@ -42,8 +42,9 @@ class Timer:
         return timed
 
     def print_times():
+        print(color_format("\nTIMES",'HEADER'))
         for func,time in Timer.times.items():
-            print("{}\t{:2f}s".format(func,time))
+            print("   {}\t{:2f}s".format(func,time))
 
 #####
 # OPTIMIZATION

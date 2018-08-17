@@ -1,1331 +1,847 @@
-box 117 116 121 120
+box 58 58 62 62
 paint ndc
 move right 1
 move up 1
 box w 0
 box h 0
-label test1534464216.398945_2
-box 187 89 191 93
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_6
-box 136 31 140 35
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_1
-box 67 12 71 16
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_10
-box 85 58 89 62
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_4
-box 45 36 49 40
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_3
-box 94 160 98 164
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_6
-box 103 118 107 122
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_8
-box 96 41 100 45
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_10
-box 46 1 50 5
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_9
-box 37 198 41 202
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_9
-box 170 60 174 64
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_7
-box 32 159 36 163
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_8
-box 155 63 159 67
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_9
-box 176 151 180 155
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_5
-box 138 92 142 96
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_7
-box 194 15 198 19
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_1
-box 166 111 170 115
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_4
-box 180 182 184 186
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_6
-box 14 173 18 177
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_9
-box 42 13 46 17
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_4
-box 183 12 187 16
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_9
-box 79 134 83 138
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_9
-box 166 191 170 195
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_9
-box 85 116 89 120
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_0
-box 121 49 125 53
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_8
-box 184 152 188 156
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_3
-box 99 185 103 189
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_1
-box 158 168 162 172
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_10
-box 139 9 143 13
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_7
-box 12 121 16 125
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_0
-box 63 40 67 44
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_1
-box 35 54 39 58
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_10
-box 31 64 35 68
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_1
-box 9 138 13 142
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_6
-box 115 87 119 91
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_7
-box 155 148 159 152
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_4
-box 19 153 23 157
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_4
-box 66 181 70 185
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_1
-box 58 12 62 16
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_6
-box 0 69 4 73
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_4
-box 59 103 63 107
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_0
-box 56 76 60 80
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_10
-box 82 172 86 176
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_7
-box 186 197 190 201
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_2
-box 5 177 9 181
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_9
-box 178 0 182 4
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_10
-box 180 81 184 85
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_8
-box 44 97 48 101
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_6
-box 50 54 54 58
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_2
-box 111 149 115 153
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_9
-box 166 77 170 81
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_2
-box 148 157 152 161
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_3
-box 17 11 21 15
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_7
-box 123 27 127 31
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_1
-box 142 145 146 149
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_2
-box 194 141 198 145
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_9
-box 165 124 169 128
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_5
-box 172 200 176 204
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_7
-box 58 189 62 193
-paint ndc
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_5
-box 118 117 145 120
-paint m1
-box 142 117 145 148
-paint m1
-box 51 55 54 72
-paint m1
-box 51 69 109 72
-paint m1
-box 106 69 109 80
-paint m1
-box 106 77 111 80
-paint m1
-box 108 77 169 80
-paint m1
-box 108 77 111 92
-paint m1
-box 108 89 112 93
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_2
-box 108 89 117 92
-paint m2
-box 114 89 117 110
-paint m2
-box 114 107 118 111
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_2
-box 114 107 117 119
-paint m1
-box 114 116 120 119
-paint m1
-box 180 197 189 200
-paint m1
-box 180 190 183 200
-paint m1
-box 174 190 183 193
-paint m1
-box 174 190 178 194
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_2
-box 140 190 177 193
-paint m2
-box 140 173 143 193
-paint m2
-box 140 173 144 177
-paint m3c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_2
-box 140 156 143 176
+label test_1
+box 50 93 53 96
+paint m4
+box 64 14 67 17
 paint m3
-box 140 156 144 160
-paint m3c
+box 94 58 98 62
+paint ndc
 move right 1
 move up 1
 box w 0
 box h 0
-label test1534464216.398945_2
-box 140 150 143 159
-paint m2
-box 135 150 143 153
-paint m2
-box 135 150 139 154
-paint m2c
+label test_2
+box 84 82 88 86
+paint ndc
 move right 1
 move up 1
 box w 0
 box h 0
-label test1534464216.398945_2
-box 135 146 138 153
-paint m1
-box 135 146 145 149
-paint m1
-box 112 89 114 93
-paint m2
-box 117 116 117 119
-paint m1
-box 180 194 180 198
-paint m1
-box 183 197 186 200
-paint m1
-box 178 190 180 194
-paint m1
-box 139 150 140 154
-paint m2
-box 140 153 143 157
-paint m2
-box 135 149 139 151
-paint m1
-box 188 90 191 137
-paint m1
-box 188 134 193 137
-paint m1
-box 190 134 194 138
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_6
-box 190 134 193 169
-paint m2
-box 190 166 194 170
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_6
-box 190 166 193 185
-paint m1
-box 181 182 193 185
-paint m1
-box 10 138 19 141
-paint m1
-box 16 138 20 142
-paint m1
-box 16 138 20 142
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_6
-box 16 98 19 141
-paint m2
-box 16 98 20 102
-paint m2
-box 16 98 20 102
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_6
-box 16 98 47 101
-paint m1
-box 45 97 55 100
-paint m1
-box 52 96 55 100
-paint m1
-box 118 96 121 103
-paint m1
-box 118 100 191 103
-paint m1
-box 51 13 61 16
-paint m1
-box 51 13 54 21
-paint m1
-box 51 18 55 22
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_6
-box 51 18 81 21
-paint m2
-box 78 18 81 94
-paint m2
-box 78 91 82 95
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_6
-box 78 91 96 94
-paint m1
-box 93 91 96 138
-paint m1
-box 93 135 97 139
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_6
-box 93 135 96 159
-paint m2
-box 87 156 96 159
-paint m2
-box 87 156 91 160
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_6
-box 87 156 90 163
-paint m1
-box 87 160 97 163
-paint m1
-box 52 96 93 99
-paint m1
-box 90 96 121 99
-paint m1
-box 90 96 96 99
-paint m1
-box 13 138 16 142
-paint m1
-box 51 16 55 19
-paint m1
-box 91 156 93 159
-paint m2
-box 87 160 91 161
-paint m1
-box 99 182 102 188
-paint m1
-box 67 182 102 185
-paint m1
-box 64 32 67 43
-paint m1
-box 123 28 126 35
-paint m1
-box 194 16 197 41
-paint m1
-box 194 38 198 42
-paint m1
-box 194 38 198 42
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_1
-box 137 38 197 41
-paint m2
-box 137 38 141 42
-paint m2
-box 137 38 141 42
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_1
-box 137 32 140 41
-paint m1
-box 121 32 139 35
-paint m1
-box 64 32 124 35
-paint m1
-box 121 32 124 45
-paint m1
-box 121 42 125 46
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_1
-box 121 42 124 127
-paint m2
-box 121 124 125 128
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_1
-box 121 124 124 185
-paint m1
-box 99 182 124 185
-paint m1
-box 32 65 35 77
-paint m1
-box 32 74 36 78
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_1
-box 32 74 68 77
-paint m2
-box 65 52 68 77
-paint m2
-box 65 52 69 56
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_1
-box 64 52 68 55
-paint m1
-box 64 41 67 55
-paint m1
-box 99 185 102 186
-paint m1
-box 124 32 124 32
-paint m1
-box 99 185 103 186
-paint m1
-box 39 55 42 79
-paint m1
-box 39 76 59 79
-paint m1
-box 85 41 99 44
-paint m1
-box 85 39 88 44
-paint m1
-box 85 39 89 43
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_10
-box 85 25 88 42
-paint m2
-box 85 25 89 29
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_10
-box 68 25 88 28
-paint m1
-box 68 13 71 28
-paint m1
-box 163 1 181 4
-paint m1
-box 163 1 167 5
-paint m1
-box 163 1 167 5
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_10
-box 163 1 166 28
-paint m2
-box 85 25 166 28
-paint m2
-box 36 55 42 58
-paint m1
-box 39 55 42 58
-paint m1
-box 39 55 46 58
-paint m1
-box 43 44 46 58
-paint m1
-box 43 44 59 47
-paint m1
-box 56 25 59 47
-paint m1
-box 56 25 71 28
-paint m1
-box 128 169 161 172
-paint m1
-box 128 169 131 173
-paint m1
-box 128 170 132 174
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_10
-box 114 170 131 173
-paint m2
-box 114 170 118 174
-paint m3c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_10
-box 114 82 117 173
+label test_1
+box 29 39 32 42
 paint m3
-box 114 82 118 86
-paint m3c
+box 18 24 22 28
+paint ndc
 move right 1
 move up 1
 box w 0
 box h 0
-label test1534464216.398945_10
-box 114 25 117 85
-paint m2
-box 39 55 39 58
-paint m1
-box 39 58 39 58
-paint m1
-box 156 112 159 151
-paint m1
-box 58 59 88 62
-paint m1
-box 58 59 62 63
-paint m1
-box 58 59 62 63
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_4
-box 1 59 5 63
-paint m2
-box 1 59 5 63
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_4
-box 1 59 4 72
-paint m1
-box 42 14 45 32
-paint m1
-box 24 29 45 32
-paint m1
-box 24 29 27 87
-paint m1
-box 24 84 28 88
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_4
-box 24 84 27 131
-paint m2
-box 24 128 28 132
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_4
-box 24 128 27 156
-paint m1
-box 20 153 27 156
-paint m1
-box 24 59 61 62
-paint m2
-box 1 59 27 63
-paint m2
-box 24 59 28 63
-paint m2
-box 24 59 28 63
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_4
-box 156 112 169 115
-paint m1
-box 156 112 159 115
-paint m1
-box 149 112 159 115
-paint m1
-box 149 107 152 115
-paint m1
-box 137 107 152 110
-paint m1
-box 137 107 141 111
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_4
-box 137 70 140 110
-paint m2
-box 137 70 141 74
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_4
-box 137 59 140 73
-paint m1
-box 86 59 140 62
-paint m1
-box 23 153 24 156
-paint m1
-box 149 158 165 161
-paint m1
-box 162 158 165 162
-paint m1
-box 162 159 166 163
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_3
-box 162 159 179 162
-paint m2
-box 176 159 180 163
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_3
-box 176 159 187 162
-paint m1
-box 184 153 187 162
-paint m1
-box 128 157 151 160
-paint m1
-box 128 150 131 160
-paint m1
-box 128 150 132 154
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_3
-box 100 150 131 153
-paint m2
-box 100 138 103 153
-paint m2
-box 100 138 104 142
-paint m3c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_3
-box 49 138 103 141
+label test_2
+box 80 52 83 55
 paint m3
-box 49 52 52 141
+box 59 71 62 74
 paint m3
-box 49 52 53 56
+box 20 83 23 86
+paint m3
+box 0 77 4 81
+paint ndc
+move right 1
+move up 1
+box w 0
+box h 0
+label test_3
+box 99 72 103 76
+paint ndc
+move right 1
+move up 1
+box w 0
+box h 0
+label test_1
+box 21 3 25 7
+paint ndc
+move right 1
+move up 1
+box w 0
+box h 0
+label test_1
+box 79 70 82 73
+paint m3
+box 31 91 34 94
+paint m4
+box 75 43 78 46
+paint m4
+box 46 61 49 64
+paint m4
+box 12 38 16 42
+paint ndc
+move right 1
+move up 1
+box w 0
+box h 0
+label test_3
+box 74 32 77 35
+paint m3
+box 86 74 90 78
+paint ndc
+move right 1
+move up 1
+box w 0
+box h 0
+label test_2
+box 6 96 10 100
+paint ndc
+move right 1
+move up 1
+box w 0
+box h 0
+label test_2
+box 89 15 92 18
+paint m4
+box 83 95 86 98
+paint m4
+box 58 1 61 4
+paint m3
+box 24 67 27 70
+paint m3
+box 51 86 54 89
+paint m4
+box 69 4 72 7
+paint m4
+box 6 60 10 64
+paint ndc
+move right 1
+move up 1
+box w 0
+box h 0
+label test_0
+box 31 20 35 24
+paint ndc
+move right 1
+move up 1
+box w 0
+box h 0
+label test_0
+box 4 69 8 73
+paint ndc
+move right 1
+move up 1
+box w 0
+box h 0
+label test_3
+box 107 73 110 78
+paint m1
+box 107 75 111 79
+paint m2c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_1
+box 107 75 110 89
+paint m2
+box 107 86 111 90
 paint m3c
 move right 1
 move up 1
 box w 0
 box h 0
-label test1534464216.398945_3
-box 49 29 52 55
-paint m2
-box 49 29 53 33
+label test_1
+box 107 86 110 95
+paint m3
+box 107 92 111 96
+paint m4c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_1
+box 107 81 110 95
+paint m4
+box 85 82 97 85
+paint m1
+box 94 82 98 86
 paint m2c
 move right 1
 move up 1
 box w 0
 box h 0
-label test1534464216.398945_3
-box 49 29 52 39
-paint m1
-box 46 36 52 39
-paint m1
-box 184 156 187 160
-paint m1
-box 128 154 132 158
-paint m1
-box 49 36 49 39
-paint m1
-box 49 33 52 37
-paint m1
-box 103 119 106 131
-paint m1
-box 103 128 107 132
-paint m1
-box 103 128 107 132
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_8
-box 33 128 37 132
+label test_1
+box 91 82 97 85
 paint m2
-box 33 128 37 132
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_8
-box 33 128 36 162
-paint m1
-box 122 50 131 53
-paint m1
-box 128 50 132 54
-paint m1
-box 128 50 132 54
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_8
-box 128 50 183 53
+box 91 74 94 85
 paint m2
-box 180 50 184 54
-paint m2
-box 180 50 184 54
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_8
-box 180 50 183 84
-paint m1
-box 103 128 106 131
-paint m2
-box 33 128 106 132
-paint m2
-box 103 128 106 134
-paint m2
-box 103 131 131 134
-paint m2
-box 128 50 131 134
-paint m2
-box 125 50 128 53
-paint m1
-box 156 13 186 16
-paint m1
-box 47 2 159 5
-paint m1
-box 156 2 159 16
-paint m1
-box 15 174 40 177
-paint m1
-box 6 174 9 180
-paint m1
-box 6 174 17 177
-paint m1
-box 80 135 83 152
-paint m1
-box 80 149 114 152
-paint m1
-box 183 142 197 145
-paint m1
-box 183 142 187 146
-paint m1
-box 183 142 187 146
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_9
-box 112 142 116 146
-paint m2
-box 112 142 116 146
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_9
-box 112 142 115 152
-paint m1
-box 37 174 40 201
-paint m1
-box 37 174 40 177
-paint m1
-box 37 174 43 177
-paint m1
-box 40 149 43 177
-paint m1
-box 40 149 83 152
-paint m1
-box 155 142 186 145
-paint m2
-box 112 142 158 146
-paint m2
-box 155 142 158 186
-paint m2
-box 155 183 171 186
-paint m2
-box 168 183 172 187
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_9
-box 167 183 171 186
-paint m1
-box 167 183 170 194
-paint m1
-box 156 43 159 66
-paint m1
-box 156 13 159 46
-paint m1
-box 156 43 190 46
-paint m1
-box 187 43 190 77
-paint m1
-box 187 74 201 77
-paint m1
-box 198 74 201 144
-paint m1
-box 195 141 201 144
-paint m1
-box 6 177 9 178
-paint m1
-box 198 141 198 144
-paint m1
-box 18 11 38 14
-paint m1
-box 35 10 38 14
-paint m1
-box 35 10 39 14
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_7
-box 35 10 80 13
-paint m2
-box 77 10 81 14
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_7
-box 77 10 142 13
-paint m1
-box 159 200 175 203
-paint m1
-box 159 176 162 203
-paint m1
-box 159 176 172 179
-paint m1
-box 169 134 172 179
-paint m1
-box 169 134 173 138
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_7
-box 169 70 172 137
-paint m2
-box 169 70 173 74
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_7
-box 169 70 173 73
-paint m1
-box 138 88 141 95
-paint m1
-box 116 88 141 91
-paint m1
-box 170 69 173 73
-paint m1
-box 170 61 173 72
-paint m1
-box 163 69 173 72
-paint m1
-box 163 69 167 73
-paint m1
-box 163 69 167 73
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_7
-box 163 88 167 92
-paint m2
-box 163 88 167 92
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_7
-box 138 88 166 91
-paint m1
-box 163 69 166 72
-paint m2
-box 163 69 167 91
-paint m2
-box 144 69 166 72
-paint m2
-box 144 57 147 72
-paint m2
-box 144 57 148 61
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_7
-box 144 10 147 60
-paint m1
-box 140 10 147 13
-paint m1
-box 83 173 110 176
-paint m1
-box 107 173 111 177
-paint m1
-box 107 173 111 177
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_7
-box 107 173 110 192
-paint m2
-box 107 189 111 193
-paint m2
-box 107 189 111 193
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_7
-box 107 189 162 192
-paint m1
-box 138 91 141 93
-paint m1
-box 167 70 169 73
-paint m1
-box 166 70 169 74
-paint m2
-box 138 91 142 93
-paint m1
-box 169 72 169 72
-paint m2
-box 143 10 144 13
-paint m1
-box 176 125 179 154
-paint m1
-box 166 125 179 128
-paint m1
-box 59 163 62 192
-paint m1
-box 59 163 83 166
-paint m1
-box 80 163 84 167
-paint m2c
-move right 1
-move up 1
-box w 0
-box h 0
-label test1534464216.398945_5
-box 80 163 151 166
-paint m2
-box 148 163 152 167
+box 91 74 95 78
 paint m3c
 move right 1
 move up 1
 box w 0
 box h 0
-label test1534464216.398945_5
-box 148 135 151 166
+label test_1
+box 91 74 104 77
 paint m3
-box 148 135 179 138
-paint m3
-box 176 135 180 139
-paint m3c
+box 101 74 105 78
+paint m4c
 move right 1
 move up 1
 box w 0
 box h 0
-label test1534464216.398945_5
-box 176 121 179 138
-paint m2
-box 176 121 184 124
-paint m2
-box 181 121 185 125
+label test_1
+box 101 74 104 80
+paint m4
+box 93 77 104 80
+paint m4
+box 93 77 96 89
+paint m4
+box 51 86 96 89
+paint m4
+box 100 73 109 76
+paint m1
+box 106 73 110 76
+paint m1
+box 106 70 109 76
+paint m1
+box 106 70 110 74
+paint m1
+box 106 70 110 74
 paint m2c
 move right 1
 move up 1
 box w 0
 box h 0
-label test1534464216.398945_5
-box 181 121 184 128
-paint m1
-box 176 125 184 128
-paint m1
-box 179 121 181 125
+label test_1
+box 101 70 109 73
 paint m2
-box 181 125 184 126
+box 101 70 105 74
+paint m2
+box 101 70 105 74
+paint m3c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_1
+box 101 70 104 77
+paint m3
+box 2 4 6 8
+paint m3c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_1
+box 2 4 15 7
+paint m2
+box 12 4 16 8
+paint m2c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_1
+box 12 4 24 7
 paint m1
-box 85 117 88 124
+box 58 39 62 43
+paint m3c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_1
+box 58 39 61 52
+paint m2
+box 58 49 62 53
+paint m2c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_1
+box 58 49 61 61
 paint m1
-box 13 121 88 124
+box 58 50 64 53
+paint m3
+box 61 50 64 55
+paint m3
+box 61 52 83 55
+paint m3
+box 29 32 32 42
+paint m3
+box 29 32 77 35
+paint m3
+box 58 39 61 53
+paint m3
+box 58 39 62 43
+paint m3c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_1
+box 58 32 61 42
+paint m3
+box 22 4 25 13
 paint m1
-box 59 104 62 124
+box 22 10 26 14
 paint m1
-box 85 120 88 122
+box 22 10 26 14
+paint m2c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_1
+box 22 10 32 13
+paint m2
+box 29 10 33 14
+paint m2
+box 29 10 33 14
+paint m3c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_1
+box 29 10 32 35
+paint m3
+box 5 4 16 7
+paint m3
+box 2 4 9 8
+paint m3c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_1
+box 5 4 8 18
+paint m3
+box 5 15 9 19
+paint m4c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_1
+box 5 12 8 18
+paint m4
+box 5 12 16 15
+paint m4
+box 91 52 94 77
+paint m3
+box 80 52 94 55
+paint m3
+box 103 72 106 76
 paint m1
+box 103 72 106 74
+paint m1
+box 110 75 110 75
+paint m1
+box 107 73 109 76
+paint m2
+box 105 75 107 75
+paint m2
+box 105 70 106 74
+paint m2
+box 25 10 25 10
+paint m1
+box 26 10 29 14
+paint m2
+box 7 96 19 99
+paint m1
+box 16 96 20 100
+paint m2c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_2
+box 16 96 26 99
+paint m2
+box 23 92 26 99
+paint m2
+box 23 92 27 96
+paint m3c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_2
+box 23 92 29 95
+paint m3
+box 26 92 30 96
+paint m4c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_2
+box 15 92 29 95
+paint m4
+box 28 91 34 94
+paint m4
+box 28 91 31 95
+paint m4
+box 25 92 31 95
+paint m4
+box 31 91 34 98
+paint m4
+box 87 59 90 77
+paint m1
+box 90 59 97 62
+paint m1
+box 87 59 93 62
+paint m1
+box 90 50 93 62
+paint m1
+box 90 50 94 54
+paint m2c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_2
+box 90 39 94 43
+paint m3c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_2
+box 90 39 99 42
+paint m3
+box 96 39 100 43
+paint m4c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_2
+box 96 39 99 53
+paint m4
+box 9 25 21 28
+paint m1
+box 9 25 13 29
+paint m2c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_2
+box 0 25 12 28
+paint m2
+box 0 25 3 30
+paint m2
+box 0 27 4 31
+paint m3c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_2
+box 0 27 3 37
+paint m3
+box 0 34 4 38
+paint m4c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_2
+box 0 33 3 37
+paint m4
+box 0 33 13 36
+paint m4
+box 48 71 62 74
+paint m3
+box 48 71 52 75
+paint m4c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_2
+box 48 71 56 74
+paint m4
+box 44 93 53 96
+paint m4
+box 44 71 47 96
+paint m4
+box 44 71 51 74
+paint m4
+box 53 43 78 46
+paint m4
+box 53 43 56 74
+paint m4
+box 10 33 56 36
+paint m4
+box 53 33 56 46
+paint m4
+box 90 40 93 53
+paint m2
+box 90 39 94 44
+paint m3c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_2
+box 78 40 93 43
+paint m2
+box 78 40 82 44
+paint m2
+box 78 40 82 44
+paint m3c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_2
+box 78 40 81 46
+paint m3
+box 78 43 82 47
+paint m3
+box 78 43 82 47
+paint m4c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_2
+box 75 43 81 46
+paint m4
+box 44 95 86 98
+paint m4
+box 31 95 47 98
+paint m4
+box 44 92 47 98
+paint m4
+box 31 91 31 94
+paint m4
+box 31 94 31 94
+paint m4
+box 31 94 34 96
+paint m4
+box 31 96 31 96
+paint m4
+box 30 92 31 96
+paint m4
+box 47 93 50 96
+paint m4
+box 47 71 48 75
+paint m4
+box 52 71 53 74
+paint m4
+box 47 93 50 96
+paint m4
+box 6 41 9 55
+paint m3
+box 6 41 10 45
+paint m3c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_0
+box 6 41 9 54
+paint m2
+box 6 51 10 55
+paint m2c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_0
+box 6 51 9 63
+paint m1
+box 20 67 23 86
+paint m3
+box 7 61 16 64
+paint m1
+box 13 61 17 65
+paint m1
+box 13 61 17 65
+paint m2c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_0
+box 13 61 16 70
+paint m2
+box 13 67 17 71
+paint m2
+box 13 67 17 71
+paint m3c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_0
+box 13 67 23 70
+paint m3
+box 20 67 24 70
+paint m3
+box 21 67 27 70
+paint m3
+box 21 56 25 60
+paint m4c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_0
+box 15 56 24 59
+paint m4
+box 68 70 82 73
+paint m3
+box 68 70 72 74
+paint m4c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_0
+box 68 70 76 73
+paint m4
+box 73 70 92 73
+paint m4
+box 40 20 54 23
+paint m3
+box 51 20 55 24
+paint m3c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_0
+box 41 20 54 23
+paint m2
+box 41 20 45 24
+paint m2c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_0
+box 32 20 44 23
+paint m1
+box 64 14 67 23
+paint m3
+box 51 20 67 23
+paint m3
+box 58 14 67 17
+paint m3
+box 58 1 61 10
+paint m3
+box 58 7 61 17
+paint m3
+box 47 7 61 10
+paint m3
+box 47 7 51 11
+paint m4c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_0
+box 47 7 55 10
+paint m4
+box 89 17 92 73
+paint m4
+box 89 15 92 20
+paint m4
+box 55 17 92 20
+paint m4
+box 55 17 59 21
+paint m4
+box 55 17 59 21
+paint m4c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_0
+box 55 17 58 23
+paint m3
+box 55 20 59 24
+paint m3
+box 55 20 59 24
+paint m3c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_0
+box 51 20 58 23
+paint m2
+box 21 56 24 70
+paint m3
+box 21 56 25 60
+paint m4c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_0
+box 21 56 28 59
+paint m3
+box 25 56 29 60
+paint m3
+box 25 56 29 60
+paint m3c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_0
+box 25 56 34 59
+paint m2
+box 31 56 35 60
+paint m2
+box 31 56 35 60
+paint m2c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_0
+box 31 21 34 59
+paint m1
+box 23 67 24 70
+paint m3
+box 10 61 13 64
+paint m1
+box 17 67 17 67
+paint m2
+box 24 70 24 70
+paint m3
+box 73 73 73 73
+paint m4
+box 64 17 67 21
+paint m3
+box 61 14 64 17
+paint m3
+box 55 20 58 20
+paint m3
+box 58 17 58 21
+paint m3
+box 55 20 55 23
+paint m3
+box 55 20 55 24
+paint m3
+box 25 56 25 60
+paint m3
+box 29 56 31 60
+paint m2
+box 1 70 4 80
+paint m1
+box 1 70 7 73
+paint m1
+box 1 78 11 81
+paint m1
+box 8 78 11 83
+paint m1
+box 8 80 12 84
+paint m2c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_3
+box 8 80 11 94
+paint m2
+box 8 91 12 95
+paint m3c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_3
+box 8 91 11 100
+paint m3
+box 8 97 12 101
+paint m4c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_3
+box 8 86 11 100
+paint m4
+box 13 39 25 42
+paint m1
+box 22 39 26 43
+paint m2c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_3
+box 22 39 29 42
+paint m2
+box 26 39 29 49
+paint m2
+box 26 46 30 50
+paint m3c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_3
+box 26 46 35 49
+paint m3
+box 32 46 36 50
+paint m4c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_3
+box 21 46 35 49
+paint m4
+box 46 46 49 64
+paint m4
+box 32 46 49 49
+paint m4
+box -1 69 8 72
+paint m1
+box -1 39 2 72
+paint m1
+box -1 39 15 42
+paint m1
+box 26 39 54 42
+paint m2
+box 51 27 54 42
+paint m2
+box 51 27 74 30
+paint m2
+box 71 24 74 30
+paint m2
+box 71 24 75 28
+paint m3c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_3
+box 71 10 74 27
+paint m3
+box 71 10 77 13
+paint m3
+box 74 10 78 14
+paint m4c
+move right 1
+move up 1
+box w 0
+box h 0
+label test_3
+box 74 4 77 13
+paint m4
+box 69 4 77 7
+paint m4
+box 4 70 4 73
+paint m1
+box 2 69 4 72
+paint m1
+box 26 42 26 42
+paint m2
+box 74 10 74 14
+paint m3
+box 72 4 74 7
+paint m4
+box 74 7 77 11
+paint m4

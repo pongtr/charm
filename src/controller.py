@@ -75,7 +75,7 @@ def lafrieda(layout,inputs):
         
         pair = route_queue[route_index] # get pair
         net = pair[0].label             # get net
-        
+
         # try to route
         route = route_pair(pair[0],pair[1],layout,drc_cache,mode=route_modes)
 
@@ -85,7 +85,8 @@ def lafrieda(layout,inputs):
             layout.components[net].remove(pair[0])
             layout.components[net].remove(pair[1])
             new_component = ds.Component.join(pair[0],pair[1],route)
-            layout.components[net].append(new_component)
+            layout.add_component(new_component)
+            # layout.components[net].append(new_component)
 
             # add component to stack
             route_stack.append((new_component,pair[0],pair[1],route_index))
@@ -121,9 +122,9 @@ def lafrieda(layout,inputs):
                 n_ripups += 1
                 n_success -= 1
 
-                layout.components[old_net].remove(last[0])
-                layout.components[old_net].append(last[1])
-                layout.components[old_net].append(last[2])
+                layout.remove_component(last[0])
+                layout.add_component(last[1])
+                layout.add_component(last[2])
                 route_index = last[3] + 1
             route_queue = order_pairs(layout,ordering_cache)
                 
@@ -150,11 +151,11 @@ def route_pair(cp1,cp2,layout,drc_cache,mode="l"):
         m = mode[0]
         mode = mode[1:]
         if m == 'p': # pattern router
-            result = pattern_router.route_components(
-                cp1,cp2,layout,drc_cache
+            result = pattern_router.pattern_route_components(
+                cp1,cp2,layout,drc_cache,elevate=False
             )
         elif m == 'l': # lee router
-            result = lee_router.route_components(
+            result = lee_router.lee_route_components(
                 cp1,cp2,layout,drc_cache
             )
         else:

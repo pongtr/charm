@@ -26,7 +26,7 @@ def pipeline(inputs):
 
     layout = Layout(inputs)            
     try:
-        layout.elevate('poly','m1')
+        # layout.elevate('poly','m1')
         controller.lafrieda(layout,inputs)
     except KeyboardInterrupt:
         inputs['output'] = 'interrupted-' + inputs['output']

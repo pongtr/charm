@@ -11,7 +11,8 @@ import time
 
 TIMEOUT = 120
 
-def route_components(cp1,cp2,layout,drc_cache,vertical=False):
+@aux.Timer.timeit
+def lee_route_components(cp1,cp2,layout,drc_cache,vertical=False):
     """Genereate route between cp1 and cp2 using Lee's algorithm
     Return route if possible, False otherwise.
     

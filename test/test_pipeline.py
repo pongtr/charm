@@ -12,9 +12,9 @@ import charm
 
 layout_dir = 'layout/'
 inputs = {
-    'layers': 10,
+    'layers': 12,
     'order': 'pair_rule3',
-    'route_modes': 'pl',
+    'route_modes': 'p',
     'input_mode': 'placed',
     'cell_dir' : 'cells/',
     'nodefile' : layout_dir + 'layout.nodes',

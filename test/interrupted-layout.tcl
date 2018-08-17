@@ -1284,3 +1284,312 @@ move up 1
 box w 0
 box h 0
 label n104
+box 1181 569 1184 671
+paint m3
+box 857 1461 1123 1464
+paint m3
+box 966 612 969 714
+paint m3
+box 586 1464 589 1562
+paint m3
+box 566 1559 589 1562
+paint m3
+box 385 722 388 824
+paint m3
+box 297 1556 300 1760
+paint m3
+box 173 310 176 412
+paint m3
+box -227 516 198 519
+paint m3
+box -237 1574 -234 1672
+paint m3
+box -478 1050 -219 1053
+paint m3
+box -501 1284 -498 1382
+paint m3
+box -521 1154 -495 1157
+paint m3
+box -498 1154 -309 1157
+paint m3
+box -498 1154 -495 1283
+paint m3
+box 1334 909 1337 977
+paint m1
+box 1204 974 1337 977
+paint m1
+box 1028 1438 1295 1441
+paint m3
+box 1028 1054 1130 1057
+paint m3
+box 737 1580 741 1586
+paint m3
+box 737 1583 741 1587
+paint m3
+box 737 1583 741 1587
+paint m3c
+move right 1
+move up 1
+box w 0
+box h 0
+label n115
+box 737 1583 740 1663
+paint m2
+box 740 1583 740 1583
+paint m3
+box 494 1679 497 1766
+paint m3
+box 494 1763 498 1767
+paint m3
+box 494 1763 498 1767
+paint m3c
+move right 1
+move up 1
+box w 0
+box h 0
+label n116
+box 494 1763 574 1766
+paint m2
+box 469 1778 473 1784
+paint m3
+box 469 1781 473 1785
+paint m3
+box 469 1781 473 1785
+paint m3c
+move right 1
+move up 1
+box w 0
+box h 0
+label n117
+box 469 1781 472 1869
+paint m2
+box 473 1781 473 1781
+paint m3
+box 200 1714 204 1720
+paint m3
+box 200 1717 204 1721
+paint m3
+box 200 1717 204 1721
+paint m3c
+move right 1
+move up 1
+box w 0
+box h 0
+label n118
+box 200 1717 203 1857
+paint m2
+box 204 1717 204 1717
+paint m3
+box -66 1690 -62 1696
+paint m3
+box -66 1693 -62 1697
+paint m3
+box -66 1693 -62 1697
+paint m3c
+move right 1
+move up 1
+box w 0
+box h 0
+label n119
+box -66 1693 -63 1793
+paint m2
+box -62 1693 -62 1693
+paint m3
+box -215 1326 -212 1358
+paint m3
+box -326 1355 -212 1358
+paint m3
+box -215 1367 -212 1400
+paint m3
+box -326 1397 -212 1400
+paint m3
+box -427 970 -425 977
+paint poly
+box -427 975 -423 979
+paint poly
+box -427 975 -423 979
+paint pc
+move right 1
+move up 1
+box w 0
+box h 0
+label n120
+box -427 975 -424 1479
+paint m1
+box -427 1476 -423 1480
+paint m1
+box -427 1476 -423 1480
+paint m2c
+move right 1
+move up 1
+box w 0
+box h 0
+label n120
+box -427 1476 -421 1479
+paint m2
+box -424 967 -76 970
+paint m3
+box -424 967 -420 971
+paint m3
+box -424 967 -420 971
+paint m3c
+move right 1
+move up 1
+box w 0
+box h 0
+label n120
+box -427 967 -421 970
+paint m2
+box -427 967 -423 971
+paint m2
+box -427 967 -423 971
+paint m2c
+move right 1
+move up 1
+box w 0
+box h 0
+label n120
+box -427 967 -424 978
+paint m1
+box -425 975 -425 975
+paint poly
+box 880 1035 945 1037
+paint poly
+box 880 1029 945 1031
+paint poly
+box 879 1045 946 1048
+paint m1
+box 696 1035 761 1037
+paint poly
+box 696 1029 761 1031
+paint poly
+box 695 1046 762 1049
+paint m1
+box 867 815 870 973
+paint m2
+box 865 815 870 818
+paint m2
+box 865 812 868 818
+paint m2
+box 868 815 868 815
+paint m2
+box 865 815 868 816
+paint m2
+box 512 1035 577 1037
+paint poly
+box 512 1029 577 1031
+paint poly
+box 511 1046 578 1049
+paint m1
+box 683 812 686 973
+paint m2
+box 652 812 686 815
+paint m2
+box 328 1035 393 1037
+paint poly
+box 328 1029 393 1031
+paint poly
+box 327 1046 394 1049
+paint m1
+box -40 948 25 950
+paint poly
+box -40 942 25 944
+paint poly
+box -40 890 25 892
+paint poly
+box -41 958 26 961
+paint m1
+box 1287 1222 1290 1297
+paint m1
+box 1287 1222 1291 1226
+paint m1
+box 1287 1222 1291 1226
+paint m2c
+move right 1
+move up 1
+box w 0
+box h 0
+label n145
+box 1287 1222 1303 1225
+paint m2
+box 696 1319 702 1323
+paint m1
+box 696 1319 700 1323
+paint m1
+box 696 1319 700 1323
+paint m2c
+move right 1
+move up 1
+box w 0
+box h 0
+label n148
+box 366 1319 699 1322
+paint m2
+box 345 1484 347 1521
+paint poly
+box 321 1519 347 1521
+paint poly
+box 471 1484 473 1521
+paint poly
+box 447 1519 473 1521
+paint poly
+box 49 1533 56 1535
+paint poly
+box 49 1533 53 1537
+paint poly
+box 49 1533 53 1537
+paint pc
+move right 1
+move up 1
+box w 0
+box h 0
+label n68
+box -213 1533 52 1536
+paint m1
+box -213 1533 -209 1537
+paint m1
+box -213 1533 -209 1537
+paint pc
+move right 1
+move up 1
+box w 0
+box h 0
+label n68
+box -213 1533 -211 1540
+paint poly
+box 53 1533 54 1537
+paint poly
+box 588 1590 590 1597
+paint poly
+box 588 1595 592 1599
+paint poly
+box 588 1595 592 1599
+paint pc
+move right 1
+move up 1
+box w 0
+box h 0
+label n86
+box 345 1595 591 1598
+paint m1
+box 345 1595 349 1599
+paint m1
+box 345 1595 349 1599
+paint pc
+move right 1
+move up 1
+box w 0
+box h 0
+label n86
+box 345 1595 347 1627
+paint poly
+box 590 1595 590 1595
+paint poly
+box 345 1689 347 1726
+paint poly
+box 321 1724 347 1726
+paint poly
+box 454 1688 457 1727
+paint m1
+box 431 1724 457 1727
+paint m1

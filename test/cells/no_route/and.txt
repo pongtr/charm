@@ -1,0 +1,48 @@
+65 28 4 2 ndiff
+65 20 4 2 ndiff
+65 4 4 2 ndiff
+81 28 6 2 pdiff
+81 20 6 2 pdiff
+81 4 6 2 pdiff
+65 30 4 1 ndiff
+65 22 4 6 ndiff
+65 19 4 1 ndiff
+65 6 4 1 ndiff
+65 3 4 1 ndiff
+81 31 2 4 pdiff
+81 30 6 1 pdiff
+81 27 6 1 pdiff
+85 23 2 4 pdiff
+81 22 6 1 pdiff
+81 19 6 1 pdiff
+81 15 2 4 pdiff
+81 7 2 4 pdiff
+81 6 6 1 pdiff
+81 3 6 1 pdiff
+85 -1 2 4 pdiff
+65 31 4 4 ndc GND!
+65 31 4 4 ndiff
+65 15 4 4 ndc _out
+65 15 4 4 ndiff
+65 7 4 4 ndc GND!
+65 7 4 4 ndiff
+65 -1 4 4 ndc out
+65 -1 4 4 ndiff
+83 31 4 4 pdc Vdd!
+83 31 4 4 pdiff
+81 23 4 4 pdc _out
+81 23 4 4 pdiff
+83 15 4 4 pdc Vdd!
+83 15 4 4 pdiff
+83 7 4 4 pdc Vdd!
+83 7 4 4 pdiff
+81 -1 4 4 pdc out
+81 -1 4 4 pdiff
+90 39 3 4 m1 GND!
+56 -9 3 4 m1 Vdd!
+63 28 8 2 poly in1
+63 20 8 2 poly in2
+63 4 8 2 poly _out
+79 28 10 2 poly in1
+79 20 10 2 poly in2
+79 4 10 2 poly _out

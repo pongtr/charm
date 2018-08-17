@@ -1,0 +1,179 @@
+-43 -45 2 9 ndiff
+64 -51 2 8 ndiff
+-21 -73 2 12 ndiff
+-16 -73 2 12 ndiff
+-8 -73 2 12 ndiff
+-3 -73 2 12 ndiff
+5 -73 2 12 ndiff
+13 -73 2 12 ndiff
+21 -73 2 12 ndiff
+26 -73 2 12 ndiff
+34 -73 2 12 ndiff
+39 -73 2 12 ndiff
+-48 -83 2 7 ndiff
+-43 -24 2 12 pdiff
+-27 -24 2 12 pdiff
+-19 -24 2 12 pdiff
+-11 -24 2 12 pdiff
+-3 -24 2 12 pdiff
+5 -24 2 12 pdiff
+13 -24 2 12 pdiff
+21 -24 2 12 pdiff
+29 -24 2 12 pdiff
+37 -24 2 12 pdiff
+45 -24 2 12 pdiff
+64 -24 2 12 pdiff
+-48 -64 2 7 pdiff
+-44 -45 1 9 ndiff
+-41 -45 1 9 ndiff
+63 -51 1 8 ndiff
+66 -51 1 8 ndiff
+-23 -66 2 5 ndiff
+-27 -73 6 7 ndiff
+-19 -73 3 12 ndiff
+-14 -69 6 8 ndiff
+-14 -73 1 4 ndiff
+-9 -73 1 4 ndiff
+-6 -73 3 12 ndiff
+-1 -73 1 12 ndiff
+4 -73 1 12 ndiff
+7 -73 1 12 ndiff
+12 -73 1 12 ndiff
+15 -73 1 12 ndiff
+20 -73 1 12 ndiff
+23 -73 3 12 ndiff
+28 -69 6 8 ndiff
+28 -73 1 4 ndiff
+33 -73 1 4 ndiff
+36 -73 3 12 ndiff
+41 -65 1 4 ndiff
+41 -73 5 8 ndiff
+-49 -83 1 7 ndiff
+-46 -83 1 7 ndiff
+-44 -24 1 12 pdiff
+-41 -24 1 12 pdiff
+-28 -24 1 12 pdiff
+-25 -24 1 12 pdiff
+-20 -24 1 12 pdiff
+-17 -24 1 12 pdiff
+-12 -24 1 12 pdiff
+-9 -16 1 4 pdiff
+-4 -16 1 4 pdiff
+-9 -24 6 8 pdiff
+-1 -24 1 12 pdiff
+4 -24 1 12 pdiff
+7 -24 1 12 pdiff
+12 -24 1 12 pdiff
+15 -24 1 12 pdiff
+20 -24 1 12 pdiff
+23 -16 1 4 pdiff
+28 -16 1 4 pdiff
+23 -24 6 8 pdiff
+31 -24 1 12 pdiff
+36 -24 1 12 pdiff
+39 -24 1 12 pdiff
+44 -24 1 12 pdiff
+47 -24 1 12 pdiff
+63 -24 1 12 pdiff
+66 -24 1 12 pdiff
+-51 -64 3 7 pdiff
+-46 -64 1 7 pdiff
+-48 -45 4 9 ndc GND!
+-48 -45 4 9 ndiff
+-40 -45 4 9 ndc _a
+-40 -45 4 9 ndiff
+59 -51 4 8 ndc
+59 -51 4 8 ndiff
+67 -51 4 8 ndc
+67 -51 4 8 ndiff
+-27 -66 4 5 ndc n1
+-27 -66 4 5 ndiff
+-13 -73 4 4 ndc GND!
+-13 -73 4 4 ndiff
+0 -73 4 12 ndc n1
+0 -73 4 12 ndiff
+8 -73 4 12 ndc _f
+8 -73 4 12 ndiff
+16 -73 4 12 ndc n2
+16 -73 4 12 ndiff
+29 -73 4 4 ndc GND!
+29 -73 4 4 ndiff
+42 -65 4 4 ndc n2
+42 -65 4 4 ndiff
+-53 -83 4 7 ndc GND!
+-53 -83 4 7 ndiff
+-45 -83 4 7 ndc _b
+-45 -83 4 7 ndiff
+-48 -24 4 12 pdc Vdd!
+-48 -24 4 12 pdiff
+-40 -24 4 12 pdc _a
+-40 -24 4 12 pdiff
+-32 -24 4 12 pdc Vdd!
+-32 -24 4 12 pdiff
+-24 -24 4 12 pdc p1
+-24 -24 4 12 pdiff
+-16 -24 4 12 pdc p2
+-16 -24 4 12 pdiff
+-8 -16 4 4 pdc Vdd!
+-8 -16 4 4 pdiff
+0 -24 4 12 pdc p2
+0 -24 4 12 pdiff
+8 -24 4 12 pdc p1
+8 -24 4 12 pdiff
+16 -24 4 12 pdc p3
+16 -24 4 12 pdiff
+24 -16 4 4 pdc _f
+24 -16 4 4 pdiff
+32 -24 4 12 pdc p3
+32 -24 4 12 pdiff
+40 -24 4 12 pdc p1
+40 -24 4 12 pdiff
+48 -24 4 12 pdc _f
+48 -24 4 12 pdiff
+59 -24 4 12 pdc Vdd!
+59 -24 4 12 pdiff
+67 -24 4 12 pdc f
+67 -24 4 12 pdiff
+-55 -64 4 7 pdc Vdd!
+-55 -64 4 7 pdiff
+-45 -64 4 7 pdc _b
+-45 -64 4 7 pdiff
+-59 6 4 5 m1 Vdd!
+74 7 4 4 m1 GND!
+76 -35 3 4 m1 f
+-59 -111 3 5 m1 Vdd!
+74 -111 4 3 m1 GND!
+59 -51 4 8 m2 GND!
+67 -51 4 8 m2 f
+-43 -47 2 13 poly a
+64 -53 2 12 poly _f
+-21 -75 2 16 poly g0
+-16 -75 2 16 poly _b
+-8 -75 2 16 poly b
+-3 -75 2 16 poly g1
+5 -75 2 16 poly _a
+13 -75 2 16 poly a
+21 -75 2 16 poly g2
+26 -75 2 16 poly _b
+34 -75 2 16 poly b
+39 -75 2 16 poly g3
+-48 -85 2 11 poly b
+-43 -26 2 16 poly a
+-27 -26 2 16 poly _a
+-19 -26 2 17 poly b
+-11 -26 2 16 poly _b
+-3 -26 2 16 poly g0
+5 -26 2 16 poly g1
+13 -26 2 16 poly g2
+21 -26 2 16 poly g3
+29 -26 2 16 poly b
+37 -26 2 16 poly _b
+45 -26 2 16 poly a
+64 -26 2 16 poly _f
+-48 -66 2 11 poly b
+-61 -30 3 2 poly a
+-61 -71 2 2 poly b
+-3 -111 2 2 poly g0
+5 -111 2 2 poly g1
+13 -111 2 2 poly g2
+21 -111 2 2 poly g3

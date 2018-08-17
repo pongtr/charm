@@ -1,0 +1,81 @@
+43 58 3 2 ndiff
+47 19 2 3 ndiff
+52 19 2 3 ndiff
+60 19 7 3 ndiff
+73 19 2 3 ndiff
+73 58 6 2 pdiff
+47 34 2 6 pdiff
+52 34 2 6 pdiff
+60 34 7 6 pdiff
+73 34 2 6 pdiff
+43 60 3 1 ndiff
+43 57 3 1 ndiff
+42 20 5 2 ndiff
+46 19 1 1 ndiff
+49 19 3 3 ndiff
+54 19 1 3 ndiff
+59 19 1 3 ndiff
+67 20 6 2 ndiff
+67 19 1 1 ndiff
+72 19 1 1 ndiff
+75 20 5 2 ndiff
+75 19 1 1 ndiff
+73 60 6 1 pdiff
+73 57 6 1 pdiff
+46 36 1 4 pdiff
+42 34 5 2 pdiff
+49 34 3 6 pdiff
+54 38 6 2 pdiff
+54 34 1 4 pdiff
+59 34 1 4 pdiff
+67 36 1 4 pdiff
+72 36 1 4 pdiff
+67 34 6 2 pdiff
+75 36 1 4 pdiff
+75 34 5 2 pdiff
+42 61 4 4 ndc out
+42 61 4 4 ndiff
+42 53 4 4 ndc stage2
+42 53 4 4 ndiff
+42 16 4 4 ndc GND!
+42 16 4 4 ndiff
+55 18 4 4 ndc stage1
+55 18 4 4 ndiff
+68 16 4 4 ndc GND!
+68 16 4 4 ndiff
+76 16 4 4 ndc stage2
+76 16 4 4 ndiff
+73 61 6 4 pdc
+73 61 6 4 pdiff
+73 53 6 4 pdc stage2
+73 53 6 4 pdiff
+42 36 4 4 pdc Vdd!
+42 36 4 4 pdiff
+55 34 4 4 pdc stage1
+55 34 4 4 pdiff
+68 36 4 4 pdc Vdd!
+68 36 4 4 pdiff
+76 36 4 4 pdc stage2
+76 36 4 4 pdiff
+34 92 4 4 m1 Vdd!
+84 93 4 3 m1 GND!
+77 34 3 2 m1
+77 20 3 2 m1
+34 -28 4 5 m1 Vdd!
+84 -28 4 4 m1 GND!
+92 33 4 4 m2 out
+32 29 4 4 m2 in
+41 58 7 2 poly CLK
+47 17 2 8 poly in
+52 17 2 7 poly CLK
+60 17 7 7 poly stage2
+73 17 2 7 poly stage1
+71 58 10 2 poly _CLK
+47 32 2 10 poly in
+52 32 2 10 poly _CLK
+60 32 7 10 poly stage2
+73 32 2 10 poly stage1
+39 91 2 5 poly CLK
+81 93 2 3 poly _CLK
+39 -28 2 5 poly CLK
+81 -28 2 4 poly _CLK

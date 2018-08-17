@@ -1,0 +1,147 @@
+-19 -21 2 6 ndiff
+-11 -21 2 6 ndiff
+5 -21 2 6 ndiff
+13 -21 2 6 ndiff
+21 -21 2 6 ndiff
+29 -21 2 6 ndiff
+37 -21 2 6 ndiff
+45 -21 2 6 ndiff
+53 -21 2 6 ndiff
+69 -21 2 6 ndiff
+-19 3 2 7 pdiff
+-11 3 2 7 pdiff
+5 3 2 7 pdiff
+13 3 2 7 pdiff
+21 3 2 7 pdiff
+29 3 2 7 pdiff
+37 3 2 7 pdiff
+45 3 2 7 pdiff
+53 3 2 7 pdiff
+69 3 2 6 pdiff
+-20 -21 1 6 ndiff
+-17 -21 1 6 ndiff
+-12 -21 1 6 ndiff
+-9 -21 1 6 ndiff
+0 -17 5 2 ndiff
+4 -21 1 4 ndiff
+7 -21 6 6 ndiff
+15 -19 1 4 ndiff
+20 -19 1 4 ndiff
+15 -21 6 2 ndiff
+23 -21 6 6 ndiff
+31 -21 6 6 ndiff
+39 -17 6 2 ndiff
+39 -21 1 4 ndiff
+44 -21 1 4 ndiff
+47 -21 6 6 ndiff
+55 -19 1 4 ndiff
+55 -21 5 2 ndiff
+68 -21 1 6 ndiff
+71 -21 1 6 ndiff
+32 -28 4 7 ndiff
+24 10 4 11 pdiff
+-20 3 1 7 pdiff
+-17 3 1 7 pdiff
+-12 3 1 7 pdiff
+-9 3 1 7 pdiff
+0 7 5 3 pdiff
+4 3 1 4 pdiff
+7 6 1 4 pdiff
+12 6 1 4 pdiff
+7 3 6 3 pdiff
+15 7 6 3 pdiff
+15 3 1 4 pdiff
+20 3 1 4 pdiff
+23 3 6 7 pdiff
+31 7 6 3 pdiff
+31 3 1 4 pdiff
+36 3 1 4 pdiff
+39 7 6 3 pdiff
+39 3 1 4 pdiff
+44 3 1 4 pdiff
+47 6 1 4 pdiff
+52 6 1 4 pdiff
+47 3 6 3 pdiff
+55 7 5 3 pdiff
+55 3 1 4 pdiff
+68 3 1 6 pdiff
+71 3 1 6 pdiff
+-24 -21 4 6 ndc _s
+-24 -21 4 6 ndiff
+-16 -21 4 6 ndc GND!
+-16 -21 4 6 ndiff
+-8 -21 4 6 ndc _u
+-8 -21 4 6 ndiff
+0 -21 4 4 ndc n1
+0 -21 4 4 ndiff
+16 -19 4 4 ndc _o
+16 -19 4 4 ndiff
+40 -21 4 4 ndc n1
+40 -21 4 4 ndiff
+56 -19 4 4 ndc _o
+56 -19 4 4 ndiff
+64 -21 4 6 ndc GND!
+64 -21 4 6 ndiff
+72 -21 4 6 ndc o
+72 -21 4 6 ndiff
+32 -32 4 4 ndc GND!
+32 -32 4 4 ndiff
+24 21 4 4 pdc Vdd!
+24 21 4 4 pdiff
+-24 3 4 7 pdc _s
+-24 3 4 7 pdiff
+-16 3 4 7 pdc Vdd!
+-16 3 4 7 pdiff
+-8 3 4 7 pdc _u
+-8 3 4 7 pdiff
+0 3 4 4 pdc p1
+0 3 4 4 pdiff
+8 6 4 4 pdc p2
+8 6 4 4 pdiff
+16 3 4 4 pdc p1
+16 3 4 4 pdiff
+32 3 4 4 pdc p1
+32 3 4 4 pdiff
+40 3 4 4 pdc _o
+40 3 4 4 pdiff
+48 6 4 4 pdc p2
+48 6 4 4 pdiff
+56 3 4 4 pdc _o
+56 3 4 4 pdiff
+64 3 4 6 pdc Vdd!
+64 3 4 6 pdiff
+72 3 4 6 pdc o
+72 3 4 6 pdiff
+-26 31 3 4 m1 a
+77 31 3 4 m1 ad
+-26 24 4 4 m1 Vdd!
+77 24 3 4 m1 Vdd!
+-26 -42 3 4 m1 GND!
+77 -42 3 4 m1 GND!
+72 -44 4 3 m2 o
+-19 -23 2 10 poly s
+-11 -23 2 10 poly u
+5 -23 2 10 poly u
+13 -23 2 10 poly au
+21 -23 2 10 poly _s
+29 -23 2 10 poly a
+37 -23 2 10 poly s
+45 -23 2 10 poly ad
+53 -23 2 10 poly _u
+69 -23 2 10 poly _o
+-19 1 2 11 poly s
+-11 1 2 11 poly u
+5 1 2 11 poly u
+13 1 2 11 poly au
+21 1 2 11 poly _s
+29 1 2 11 poly a
+37 1 2 11 poly s
+45 1 2 11 poly ad
+53 1 2 11 poly _u
+69 1 2 10 poly _o
+-26 21 3 2 poly au
+77 21 3 2 poly a
+-26 15 3 2 poly u
+78 15 2 2 poly u
+-26 -37 2 2 poly s
+77 -37 3 2 poly s

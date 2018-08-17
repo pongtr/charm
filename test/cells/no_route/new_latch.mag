@@ -1,0 +1,124 @@
+magic
+tech scmos
+timestamp 1525668130
+<< ntransistor >>
+rect 43 58 46 60
+rect 47 19 49 22
+rect 52 19 54 22
+rect 60 19 67 22
+rect 73 19 75 22
+<< ptransistor >>
+rect 73 58 79 60
+rect 47 34 49 40
+rect 52 34 54 40
+rect 60 34 67 40
+rect 73 34 75 40
+<< ndiffusion >>
+rect 43 60 46 61
+rect 43 57 46 58
+rect 42 20 47 22
+rect 46 19 47 20
+rect 49 19 52 22
+rect 54 19 55 22
+rect 59 19 60 22
+rect 67 20 73 22
+rect 67 19 68 20
+rect 72 19 73 20
+rect 75 20 80 22
+rect 75 19 76 20
+<< pdiffusion >>
+rect 73 60 79 61
+rect 73 57 79 58
+rect 46 36 47 40
+rect 42 34 47 36
+rect 49 34 52 40
+rect 54 38 60 40
+rect 54 34 55 38
+rect 59 34 60 38
+rect 67 36 68 40
+rect 72 36 73 40
+rect 67 34 73 36
+rect 75 36 76 40
+rect 75 34 80 36
+<< ndcontact >>
+rect 42 61 46 65
+rect 42 53 46 57
+rect 42 16 46 20
+rect 55 18 59 22
+rect 68 16 72 20
+rect 76 16 80 20
+<< pdcontact >>
+rect 73 61 79 65
+rect 73 53 79 57
+rect 42 36 46 40
+rect 55 34 59 38
+rect 68 36 72 40
+rect 76 36 80 40
+<< polysilicon >>
+rect 39 91 41 96
+rect 81 93 83 96
+rect 41 58 43 60
+rect 46 58 48 60
+rect 71 58 73 60
+rect 79 58 81 60
+rect 47 40 49 42
+rect 52 40 54 42
+rect 60 40 67 42
+rect 73 40 75 42
+rect 47 32 49 34
+rect 52 32 54 34
+rect 60 32 67 34
+rect 73 32 75 34
+rect 47 22 49 25
+rect 52 22 54 24
+rect 60 22 67 24
+rect 73 22 75 24
+rect 47 17 49 19
+rect 52 17 54 19
+rect 60 17 67 19
+rect 73 17 75 19
+rect 39 -28 41 -23
+rect 81 -28 83 -24
+<< metal1 >>
+rect 34 92 38 96
+rect 84 93 88 96
+rect 77 34 80 36
+rect 77 20 80 22
+rect 34 -28 38 -23
+rect 84 -28 88 -24
+<< metal2 >>
+rect 92 33 96 37
+rect 32 29 36 33
+<< labels >>
+rlabel metal2 33 29 33 33 3 in
+rlabel pdcontact 44 37 44 38 1 Vdd!
+rlabel pdcontact 70 38 70 39 1 Vdd!
+rlabel metal1 36 94 36 94 4 Vdd!
+rlabel metal1 36 -26 36 -26 2 Vdd!
+rlabel polysilicon 40 94 40 94 5 CLK
+rlabel polysilicon 40 -26 40 -26 1 CLK
+rlabel polysilicon 82 94 82 94 5 _CLK
+rlabel polysilicon 82 -26 82 -26 1 _CLK
+rlabel metal1 86 94 86 94 5 GND!
+rlabel metal1 86 -26 86 -26 1 GND!
+rlabel ndcontact 44 18 44 18 1 GND!
+rlabel ndcontact 70 18 70 18 1 GND!
+rlabel polysilicon 53 23 53 23 1 CLK
+rlabel polysilicon 48 41 48 41 1 in
+rlabel polysilicon 48 23 48 23 1 in
+rlabel polysilicon 42 59 42 59 1 CLK
+rlabel polysilicon 53 41 53 41 1 _CLK
+rlabel polysilicon 80 59 80 59 1 _CLK
+rlabel pdcontact 57 36 57 36 1 stage1
+rlabel ndcontact 57 20 57 20 1 stage1
+rlabel polysilicon 74 41 74 41 1 stage1
+rlabel polysilicon 74 18 74 18 1 stage1
+rlabel ndcontact 78 18 78 18 1 stage2
+rlabel polysilicon 63 18 63 18 1 stage2
+rlabel polysilicon 64 41 64 41 1 stage2
+rlabel pdcontact 78 38 78 38 1 stage2
+rlabel pdcontact 76 55 76 55 1 stage2
+rlabel ndcontact 44 55 44 55 1 stage2
+rlabel ndcontact 44 63 44 63 1 out
+rlabel metal2 94 35 94 35 7 out
+<< end >>

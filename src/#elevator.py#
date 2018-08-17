@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+"""Elevator to quickly increase layer
+"""
+
+def elevate(origin,dest_mat):
+    # create large rect above origin at dest_mat
+    # use lee router between origin and dest_mat
+    # if successful, join components
+    # error if not
